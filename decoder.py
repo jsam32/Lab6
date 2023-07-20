@@ -4,4 +4,4 @@ class Decoder:
         decoded_password = ""
         for i in string_pass:
             decoded_password = decoded_password + str(int(i) - 3)
-        return decoded_passwordgitg
+        return decoded_password
